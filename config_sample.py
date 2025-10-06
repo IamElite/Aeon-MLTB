@@ -1,8 +1,8 @@
 # REQUIRED CONFIG
 BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
+OWNER_ID = 7074383232
+TELEGRAM_API = 28053244
+TELEGRAM_HASH = "a7d745be7c8ba465750bfad1e7abc075"
 
 # Recommended for persisting settings, RSS feeds, and task history. Essential for some features.
 DATABASE_URL = ""
@@ -11,8 +11,8 @@ DATABASE_URL = ""
 TG_PROXY = {}  # Example: {"scheme": "socks5", "hostname": "11.22.33.44", "port": 1234, "username": "user", "password": "pass"}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""  # Suffix to add to all bot commands
-AUTHORIZED_CHATS = ""  # Space separated chat_id/user_id to authorize
-SUDO_USERS = ""  # Space separated user_id for sudo access
+AUTHORIZED_CHATS = "-4930745718"  # Space separated chat_id/user_id to authorize
+SUDO_USERS = "1679112664"  # Space separated user_id for sudo access
 DEFAULT_UPLOAD = ""  # Default uploader if -ul is not specified. Options: "yt" (YouTube), "gd" (Google Drive), "rc" (Rclone), or "" (empty for no specific default).
 FILELION_API = ""
 STREAMWISH_API = ""
@@ -37,7 +37,7 @@ PAID_CHANNEL_LINK = ""  # Invite link for the paid channel
 SET_COMMANDS = True  # Register bot commands with BotFather on startup
 METADATA_KEY = ""  # Key for tagging/fetching metadata
 WATERMARK_KEY = ""  # Key for watermarking files
-LOG_CHAT_ID = 0  # Chat ID for sending leech logs
+LOG_CHAT_ID = -4930745718  # Chat ID for sending leech logs
 LEECH_FILENAME_CAPTION = ""  # Template caption for leeched files
 HYDRA_IP = ""  # IP of NZBHydra2 instance
 HYDRA_API_KEY = ""  # API key for NZBHydra2
@@ -81,7 +81,7 @@ USENET_SERVERS = [  # List of Usenet server configurations
 
 # Update
 UPSTREAM_REPO = (
-    "https://github.com/AeonOrg/Aeon-MLTB"  # Upstream repository for updates
+    "https://github.com/IamElite/Aeon-MLTB"  # Upstream repository for updates
 )
 UPSTREAM_BRANCH = "main"  # Default branch for updates
 
