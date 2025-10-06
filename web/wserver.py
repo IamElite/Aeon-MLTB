@@ -256,9 +256,10 @@ async def set_aria2(gid, selected_files):
 @app.get("/", response_class=HTMLResponse)
 async def homepage():
     return (
-        "<h1>See mirror-leech-telegram-bot "
-        "<a href='https://www.github.com/anasty17/mirror-leech-telegram-bot'>@GitHub</a> "
-        "By <a href='https://github.com/anasty17'>Anas</a></h1>"
+        "<h1>Welcome to <strong>WZML‑X</strong> Telegram Bot</h1>"
+        "<p>Support Group: <a href='https://t.me/+cXIPgHSuJnxiNjU1'>Join Here</a></p>"
+        "<p>Updates Channel: <a href='https://t.me/net_pro_max'>Stay Updated</a></p>"
+        "<p>Owner Contact: <a href='https://t.me/DshDm_bot?start'>Message Owner</a></p>"
     )
 
 
