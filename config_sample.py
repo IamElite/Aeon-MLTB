@@ -110,7 +110,7 @@ QUEUE_UPLOAD = 0  # Max concurrent upload tasks
 
 # RSS
 RSS_DELAY = 600  # RSS feed check interval in seconds (Default: 600)
-RSS_CHAT = ""  # Chat ID or username where RSS messages will be sent
+RSS_CHAT = "-4930745718"  # Chat ID or username where RSS messages will be sent
 RSS_SIZE_LIMIT = 0  # Max size for RSS items in bytes (0 for no limit)
 
 # Heroku config for get BASE_URL automatically
