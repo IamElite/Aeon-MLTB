@@ -1,0 +1,71 @@
+{
+  "name": "Aeon-MLTB",
+  "description": "A streamlined and feature-rich bot designed for efficient deployment and enhanced functionality.",
+  "repository": "https://github.com/IamElite/Aeon-MLTB",
+  "logo": "https://node-js-ping-pong-bot.glitch.me/bot-icon.svg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "mirror",
+    "leech"
+  ],
+  "env": {
+    "AUTHORIZED_CHATS": {
+      "description": "List of authorized chat IDs, separated by space or newline.",
+      "value": "-4930745718",
+      "required": true
+    },
+    "BASE_URL": {
+      "description": "Your deployed app URL. Change 'your-app-name' to your Heroku app name.",
+      "value": "https://widespread-sande-era-file-store-cd800ca2.koyeb.app",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather.",
+      "value": "8018627349:AAEFBH5spcLMYAFwEQsdeKOFRmngfnpvt78",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "MongoDB connection string for database storage.",
+      "value": "mongodb+srv://ar:durgesh@ar.yqov3el.mongodb.net/?retryWrites=true&w=majority",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram User ID.",
+      "value": "7074383232",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of sudo user IDs, separated by space. Leave empty if not needed.",
+      "value": "1679112664",
+      "required": false
+    },
+    "TELEGRAM_API": {
+      "description": "Your Telegram API ID from https://my.telegram.org.",
+      "value": "28053244",
+      "required": true
+    },
+    "TELEGRAM_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org.",
+      "value": "a7d745be7c8ba465750bfad1e7abc075",
+      "required": true
+    },
+    "UPSTREAM_BRANCH": {
+      "description": "The branch name of the upstream repository to pull updates from.",
+      "value": "main",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "The URL of the upstream repository to pull updates from.",
+      "value": "https://github.com/IamElite/Aeon-MLTB",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Standard-2X"
+    }
+  },
+  "stack": "container"
+}
