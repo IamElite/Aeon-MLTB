@@ -104,14 +104,14 @@ if DATABASE_URL:
         log_error(f"Database ERROR: {e}")
 
 UPSTREAM_REPO = (
-    config_file.get("UPSTREAM_REPO", "")
-    or os.getenv("UPSTREAM_REPO", "")
-    or "https://github.com/AeonOrg/Aeon-MLTB"
+    config_file.get("UPSTREAM_REPO", "https://github.com/IamElite/Aeon-MLTB")
+    or os.getenv("UPSTREAM_REPO", "https://github.com/IamElite/Aeon-MLTB")
+    or "https://github.com/IamElite/Aeon-MLTB"
 )
 
 UPSTREAM_BRANCH = (
-    config_file.get("UPSTREAM_BRANCH", "")
-    or os.getenv("UPSTREAM_BRANCH", "")
+    config_file.get("UPSTREAM_BRANCH", "main")
+    or os.getenv("UPSTREAM_BRANCH", "main")
     or "main"
 )
 
