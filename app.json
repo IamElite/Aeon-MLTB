@@ -2,7 +2,6 @@
   "name": "Aeon-MLTB",
   "description": "A streamlined and feature-rich bot designed for efficient deployment and enhanced functionality.",
   "repository": "https://github.com/IamElite/Aeon-MLTB",
-  "logo": "https://node-js-ping-pong-bot.glitch.me/bot-icon.svg",
   "keywords": [
     "telegram",
     "bot",
@@ -13,11 +12,6 @@
     "AUTHORIZED_CHATS": {
       "description": "List of authorized chat IDs, separated by space or newline.",
       "value": "-4930745718",
-      "required": true
-    },
-    "BASE_URL": {
-      "description": "Your deployed app URL. Change 'your-app-name' to your Heroku app name.",
-      "value": "https://widespread-sande-era-file-store-cd800ca2.koyeb.app",
       "required": true
     },
     "BOT_TOKEN": {
