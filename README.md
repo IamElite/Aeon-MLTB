@@ -4,12 +4,6 @@
 
 
 
-
-
-
-![](https://github.com/5hojib/5hojib/raw/main/images/Aeon-MLTB.gif)
-
-
 # Aeon-MLTB Bot
 
 Aeon-MLTB is a streamlined and feature-rich bot designed for efficient deployment and enhanced functionality.
